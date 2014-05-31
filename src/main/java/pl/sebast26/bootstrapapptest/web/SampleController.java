@@ -19,6 +19,7 @@ public class SampleController {
     @RequestMapping("/")
     public String home(Model model) {
         model.addAttribute("message", sampleService.getHelloMessage());
+        model.addAttribute("env", sampleService.getEnvironment());
         return "index";
     }
 }
