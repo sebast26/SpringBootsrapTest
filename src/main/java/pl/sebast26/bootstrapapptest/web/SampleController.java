@@ -1,10 +1,10 @@
-package pl.sebast26.bootstrapapptest1.web;
+package pl.sebast26.bootstrapapptest.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import pl.sebast26.bootstrapapptest1.service.SampleService;
+import pl.sebast26.bootstrapapptest.service.SampleService;
 
 /**
  *

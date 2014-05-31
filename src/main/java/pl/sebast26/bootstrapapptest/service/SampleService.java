@@ -1,4 +1,4 @@
-package pl.sebast26.bootstrapapptest1.service;
+package pl.sebast26.bootstrapapptest.service;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package pl.sebast26.bootstrapapptest1;
+package pl.sebast26.bootstrapapptest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;

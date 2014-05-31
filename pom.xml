@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pl.sebast26</groupId>
-    <artifactId>BootstrapAppTest1</artifactId>
+    <artifactId>BootstrapAppTest</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>BootstrapAppTest1</name>
+    <name>BootstrapAppTest</name>
 
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
