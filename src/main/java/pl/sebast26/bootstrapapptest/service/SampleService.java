@@ -1,5 +1,6 @@
 package pl.sebast26.bootstrapapptest.service;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
@@ -9,7 +10,10 @@ import org.springframework.stereotype.Component;
 @Component
 public class SampleService {
 
+    @Value("${name}")
+    private String name;
+
     public String getHelloMessage() {
-        return "Hello World from service!";
+        return "Hello World from service! My name is " + name;
     }
 }
